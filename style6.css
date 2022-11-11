@@ -14,7 +14,7 @@ html {
     justify-content: center;
     padding: 100px 0;
   }
-  .signup {
+  .register {
     padding: 90px 75px;
     background-color: #fff;
     width: 100%;
@@ -22,14 +22,14 @@ html {
     border-radius: 30px;
     box-shadow: 8px 5px 8px #ccc ;
   }
-  .signup-heading {
+  .register-heading {
     font-size: 40px;
     font-weight: bold;
     color: #373941;
     text-align: center;
     margin-bottom: 35px;
   }
-  .signup-social {
+  .register-social {
     padding: 10px;
     border-radius: 20px;
     display: block;
@@ -46,7 +46,7 @@ html {
     outline: none;
     box-shadow: 0 5px 10px 0 rgba(76, 111, 244, 0.5);
   }
-  .signup-social-icon {
+  .register-social-icon {
     width: 60px;
     height: 60px;
     border-radius: 10px;
@@ -57,25 +57,25 @@ html {
     color:#fff;
     font-size: 30px;
   }
-  .signup-social-text {
+  .register-social-text {
     display: block;
     margin:0 auto ;
   }
-  .signup-or {
+  .register-or {
     text-align: center;
     font-size: 16px;
     color: #999;
     margin: 55px auto;
     position: relative;
   }
-  .signup-or span {
+  .register-or span {
     display: inline-block;
     padding: 10px 30px;
     background-color: #fff;
     position: relative;
     z-index: 2;
   }
-  .signup-or:after {
+  .register-or:after {
     content: "";
     width: 100%;
     height: 1px;
@@ -85,7 +85,7 @@ html {
     left: 0;
     transform: translateY(-50%);
   }
-  .signup-label {
+  .register-label {
     font-size: 16px;
     color: #63676b;
     font-weight: 500;
@@ -93,7 +93,7 @@ html {
     display: inline-block;
     cursor: pointer;
   }
-  .signup-input {
+  .register-input {
     display: block;
     width: 100%;
     padding: 25px;
@@ -105,15 +105,15 @@ html {
     font-size: 18px;
     margin-bottom: 30px;
   }
-  .signup-input::-webkit-input-placeholder {
+  .register-input::-webkit-input-placeholder {
     color: #b4bac0;
     font-weight: 500;
   }
-  .signup-input::-moz-input-placeholder {
+  .register-input::-moz-input-placeholder {
     color: #b4bac0;
     font-weight: 500;
   }
-  .signup-submit {
+  .register-submit {
     padding: 25px;
     color: white;
     font-size: 18px;
@@ -131,18 +131,18 @@ html {
     margin-top: 25px;
     margin-bottom: 25px;
   }
-  .signup-already {
+  .register-already {
     text-align: center;
     font-size: 16px;
     color: #999;
   }
-  .signup-login-link {
+  .register-login-link {
     color: #2979ff;
     text-decoration: none;
   }
   .Google{
     width: 650px;
-    height: 928px;
+    height: 1630px;
     display:flex;
     justify-content:center ;
     align-items:center;
@@ -160,11 +160,11 @@ html {
 .Tuna{
 
     text-align: center;
-    margin-bottom: 350px;
+    margin-bottom: 950px;
 }
 .Tuni{
     color:#fff;
-    font-size: 18px;
+    font-size: 28px;
     display:flex;
     justify-content:flex-end;
     align-items:flex-end;
@@ -190,5 +190,3 @@ html {
     outline: none;
     box-shadow: 0 5px 10px 0 rgba(76, 111, 244, 0.5);
 }
-  
-  
