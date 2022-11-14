@@ -1,0 +1,116 @@
+html,body{
+    height:100%;
+    margin:0;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.left-container{
+    background-color: #f6f6f6;
+    width:40%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signin-option p:first-child{
+    text-align:center;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.signin-option p:last-child{
+    text-align:center;
+    margin-bottom: 78px;
+    
+}
+.signin-icon{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 25px ;
+}
+.signin-input{
+    width:80%;
+}
+.signin-input input{
+    display:block;
+    width:100%;
+    margin: 14px auto ;
+    height: 30px;
+    background-color: #EBEBEB;
+    border:0;
+    border-top:2px  #0AFF31 solid;
+    text-indent: 10px;
+}
+.signin-check-password{
+    background-color: #E5E0E0 ;
+    border-radius: 5px;
+}
+.signin-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.signin-footer button{
+    background: #0AFF31;
+    boder:0;
+    height: 58px;
+    width: 180px;
+    border-radius: 17px;
+    color: aliceblue;
+    font-size: 18px;
+}
+.signin-footer p{
+    text-align: center; 
+}
+.right-container{
+    background-color: #0AFF31;
+    width:40%;
+    height:80%;
+    color:white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-container a{
+    color:white ;
+    text-decoration: none;
+    margin-bottom: 17px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.introduction {
+    margin: auto;
+}
+.introduction p:first-child {
+    font-size: 67px;
+    font-weight: bold ;
+    margin-bottom: 0;
+}
+.introduction p:last-child {
+    font-size: 24px;
+
+}
+h1 {
+    color:#0AFF31;
+    text-align: center;
+    display:none;
+}
+@media screen and (max-width:767px){
+    h1 { 
+    display:block!important;  
+    }
+    .right-container {
+        display:none;
+    }
+         
+}
+
+
+
